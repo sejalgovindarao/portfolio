@@ -32,7 +32,14 @@
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "About this site\n\n1 + 1\n\n[1] 2"
+    "text": "About this site"
+  },
+  {
+    "objectID": "about.html#writing-sample",
+    "href": "about.html#writing-sample",
+    "title": "About",
+    "section": "Writing Sample",
+    "text": "Writing Sample"
   },
   {
     "objectID": "Portfolio.html",
