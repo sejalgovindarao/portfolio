@@ -10,12 +10,22 @@ website:
         text: Home
       - about.qmd
       - Portfolio.qmd
+      - walkthrough.qmd
+      
+  page-footer: 
+    left: "Copyright 2022, Sejal Govindarao" 
+    right: 
+      - icon: github
+        href: https://github.com/sejalgovindarao
+      - icon: twitter 
+        href: https://mobile.twitter.com/sejalg_
 
 format:
   html:
     theme: cosmo
     css: styles.css
     toc: true
+
 
 
 

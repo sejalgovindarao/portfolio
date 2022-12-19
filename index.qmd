@@ -1,11 +1,41 @@
 ---
 title: "Sejal Govindarao"
+about:
+  template: jolla
+  image: headshot.jpeg
+  links:
+    - icon: twitter
+      text: twitter
+      href: https://mobile.twitter.com/sejalg_
+    - icon: github
+      text: Github
+      href: https://github.com/sejalgovindarao
 ---
 
-This is a Quarto website.
+**Hi there, I'm Sejal Govindarao.** I'm an aspiring political reporter. I just wrapped up a 6-month internship covering Congress with NBC's Capitol Hill team and am seeking new journalistic opportunities.
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+## Education
 
-```{r}
-1 + 1
-```
+George Washington University \| Political Communication \| 2020-2024
+
+## Work Experience
+
+NBC \| Capitol Hill Intern \| June 2022 - December 2022
+
+ABC \| Penn Ave/ Digital Intern \| January 2022 - May 2022
+
+CNN \| Anderson Cooper 360 Intern \| October 2021 - December 2021
+
+## Technical Skills
+AP Style 
+
+iNEWS, NewsApps, MIRA, Media Central, NewsMonitors
+
+Adobe: Photoshop, Premiere, Lightroom, Audition
+
+Panasonic CX-350, DSLR
+
+Web Design: Wix, Wordpress
+
+Social Media: Twitter, Instagram, Snapchat, LinkedIn, Facebook
+
