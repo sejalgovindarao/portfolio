@@ -1,6 +1,6 @@
 ---
 title: "Virginia Election Project"
-author: "Sejal Govindarao"
+author: "putyournamehere"
 execute:
   echo: true
 format:
@@ -32,19 +32,15 @@ joined_vacomparison <- readRDS(here("processed_data", "joined_vacomparison.rds")
 
 
 # Comparing Virgnia Gov vs. Prez
-In this analysis walkthrough, we will be looking at Virginia election results by county. We will compare the 2020 Presidential Election and 2021 Gubernatorial Election -- this is particularly interesting because Biden, a Democrat, won in 2020 while Youngkin, a Republican, won in 2021. 
 
-In this first table, we will see a breakdown by county of the margins by which Trump, Biden, McAuliffe and Youngkin faired. Check out the interactive data table!
 
 
 ```{r}
 
-DT::datatable(joined_vacomparison)
+head(joined_vacomparison)
 
 
 ```
-
-This next table adds a column at the end, illustrating how many points Youngkin held over Trump in each respective county.
 
 ```{r}
 
@@ -55,8 +51,6 @@ head(joined_vacomparison)
 
 
 ```
-Next, we have a bar chart that hones in on the analysis we saw in the prior table -- this chart focuses on the top 5 counties where Youngkin in 2021 held the highest percentage of the vote as compared to Trump in 2020.  
-
 ```{r}
 
 TOP5 <- joined_vacomparison %>% 
@@ -68,9 +62,6 @@ ggplot(TOP5, aes(x = locality, y = YoungkinADV)) +
   scale_x_discrete(guide = guide_axis(n.dodge=3))
 
 ```
-
-This bar chart isolates Youngkin in 2021, illustrating the top 5 counties he performed best in.
-
 ```{r}
 
 YOUNGKIN_5 <- joined_vacomparison %>% 
@@ -82,9 +73,6 @@ ggplot(YOUNGKIN_5, aes(x = locality, y = pct_youngkin)) +
   scale_x_discrete(guide = guide_axis(n.dodge=3))
 ```
 
-
-
-Similarly, this bar chart illustrates the top 5 counties McAuliffe performed best in during the 2021 VA Election. 
 
 ```{r}
 
@@ -98,8 +86,6 @@ ggplot(MCAULIFFE_5, aes(x = locality, y = pct_mcauliffe)) +
 
 ```
 
-
-Here we see a comparison between Biden and McAuliffe, illustrating the top 5 counties Biden outperformed McAuliffe in. 
 
 ```{r}
 
@@ -117,8 +103,6 @@ ggplot(BIDEN_ADV, aes(x = locality, y = biden_adv)) +
 ```
 
 
-We now see the top 5 counties in Virginia Biden outperformed Trump in 2020. 
-
 ```{r}
 
 joined_vacomparison = joined_vacomparison %>% 
@@ -134,7 +118,6 @@ ggplot(BIDEN20_ADV, aes(x = locality, y = biden20_adv)) +
 
 ```
 
-And, conversely, here are the top 5 counties in Virginia Trump outperformed Biden in 2020. 
 
 ```{r}
 
