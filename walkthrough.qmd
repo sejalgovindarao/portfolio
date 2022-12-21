@@ -31,7 +31,7 @@ joined_vacomparison <- readRDS(here("processed_data", "joined_vacomparison.rds")
 ```
 
 
-# Comparing Virgnia Gov vs. Prez
+# Comparing Virginia Election Results by County
 In this analysis walkthrough, we will be looking at Virginia election results by county. We will compare the 2020 Presidential Election and 2021 Gubernatorial Election -- this is particularly interesting because Biden, a Democrat, won in 2020 while Youngkin, a Republican, won in 2021. 
 
 In this first table, we will see a breakdown by county of the margins by which Trump, Biden, McAuliffe and Youngkin faired. Check out the interactive data table!
