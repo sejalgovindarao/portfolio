@@ -13,6 +13,7 @@ website:
       - about.qmd
       - Portfolio.qmd
       - walkthrough.qmd
+      - assignment_chartsmaps_yournamehere.qmd
       
   page-footer: 
     left: "Copyright 2022, Sejal Govindarao" 
