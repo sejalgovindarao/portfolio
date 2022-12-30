@@ -8,10 +8,6 @@ website:
     left:
       - href: index.qmd
         text: Home
-      - href: https://drive.google.com/file/d/1LDsw7uhwP-Mkyirz8MYJgx3DrlbdUdmk/view?usp=sharing
-        text: Resume
-      - about.qmd
-      - Portfolio.qmd
       - walkthrough.qmd
       - assignment_chartsmaps_yournamehere.qmd
       
